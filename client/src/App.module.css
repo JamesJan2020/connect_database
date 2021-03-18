@@ -1,0 +1,52 @@
+body {
+  background-color: #ececec;
+  color: rgb(17, 16, 15);
+}
+
+.App {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form input {
+  width: 300px;
+  height: 20px;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.chkBtn {
+  margin: 15px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.card {
+  width: 480px;
+  height: 250px;
+  border: 3px solid rgb(228, 172, 18);
+  border-radius: 5px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.card .updateInput {
+  width: 250px;
+  height: 20px;
+}
+
+.reviewBtn button {
+  margin: 10px;
+}
